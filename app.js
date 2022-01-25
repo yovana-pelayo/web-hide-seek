@@ -65,5 +65,9 @@ function handleGuess(correctSpot, userGuess) {
     
     // then add the face class to that element so that the face shows up
     // then if the user guess is correct, increment the correct guesses
+
+
+
+
     // update the DOM to show this change to the user (including the losses, not tracked directly in state)
 
