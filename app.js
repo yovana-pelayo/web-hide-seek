@@ -44,6 +44,7 @@ function handleGuess(correctSpot, userGuess) {
     totalGuesses++;
 //increment the guesses
     totalEl.textContent = totalGuesses;
+
 //grab the appropriate container element for the correct guess
     if (correctSpot === 'boulder') {
         boulderContainer.classList.add('face');
@@ -54,7 +55,6 @@ function handleGuess(correctSpot, userGuess) {
     else {
         treeContainer.classList.add('face');
     }
-
     if (correctSpot === userGuess) { correctGuesses++;
         winsEl.textContent = correctGuesses;
     } else {
@@ -62,9 +62,12 @@ function handleGuess(correctSpot, userGuess) {
     }
 }
 
-    // then increment the guesses
-    // then grab the appropriate container element for the correct guess from the DOM
+    
     // then add the face class to that element so that the face shows up
     // then if the user guess is correct, increment the correct guesses
+
+
+
+
     // update the DOM to show this change to the user (including the losses, not tracked directly in state)
 
